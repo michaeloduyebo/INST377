@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sample HTML Demonstration Page</title>
+  <style>
+  doc {
+  background: green;
+  height: 960px;
+  width: 480px;
+}
+
+.container {
+  margin: 0;
+}
+
+  /*div {
+    color: red;
+    width: 100px;
+    height: 42px;
+  }*/
+
+newsline {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.wrapper {
+  width: 60%;
+  height: 100vh;
+  /*width: 22vh;*/
+  background-color: grey;
+  margin: auto;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.head a,
+.head {
+  margin: auto;
+  padding: 0;
+}
+a {
+    color: purple;
+}
+
+.second_container {
+  background: pink;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.textbox {
+  height: 10%;
+  width: 40%;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+}
+
+.first, .third {
+  background: red;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.second {
+  background: lightblue;
+}
+.third {
+  color: red;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="head" id="start">
+      <h1>Sample Header</h1>
+      <a href="#">Anchor tag to nowhere</a>
+    </div>
+    <div class="second_container">
+      <div class="interior">
+      hello
+      </div>
+    </div>
+    <div class ="container" >
+      <div class = "first textbox">
+        <p>First</p>
+      </div>
+      <div class = "third textbox">
+        <p> second</p> 
+      </div>
+      <div class="second textbox">
+        <p>
+          Third
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
